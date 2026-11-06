@@ -1,0 +1,11 @@
+user:{
+  username:testuser01,
+  email:testemail01@gmail.com
+  password:testpassword01
+}
+
+artist:{
+  username:artistuser01,
+  email:artistemail01@gmail.com
+  password:artistpassword01
+}
