@@ -45,7 +45,7 @@ const Navbar = ({ className }) => {
           Sign up
         </button>
         <button className="w-fit px-8 h-12 rounded-full bg-neutral-50 text-base text-neutral-900 font-semibold flex items-center justify-center hover:scale-105 ease-in-out duration-100">
-          <a href='http://localhost:5173/login'>Log in</a>
+          <a href='https://atulkumar9451-spotify-clone.vercel.app/login'>Log in</a>
         </button>
       </div>
     </nav>
