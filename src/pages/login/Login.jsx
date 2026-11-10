@@ -23,7 +23,7 @@ const Login = () => {
     console.log("Button click ho gaya aur function chal pada!");
     try {
       // Notice withCredentials: true so the cookie gets saved in the browser
-      const response = await axios.post('http://localhost:3000/api/auth/login', formData, {
+      const response = await axios.post('https://spotify-backend-l3a9.onrender.com/api/auth/login', formData, {
         withCredentials: true
       });
 
