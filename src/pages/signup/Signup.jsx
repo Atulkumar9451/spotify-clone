@@ -25,7 +25,7 @@ const Signup = () => {
     e.preventDefault();
     try {
       // Notice withCredentials: true so the cookie gets saved in the browser
-      const response = await axios.post('http://localhost:3000/api/auth/register', formData, {
+      const response = await axios.post('https://spotify-backend-l3a9.onrender.com/api/auth/register', formData, {
         withCredentials: true
       });
 
