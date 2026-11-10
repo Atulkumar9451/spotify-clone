@@ -22,6 +22,10 @@ const Navbar = ({ className }) => {
     navigate("/signup");
   }
 
+  const login = () => {
+    navigate("/login");
+  }
+
   return (
     <nav className={`w-full ${className} flex items-center justify-between md:pl-5 pl-4 md:pr-7 sm:pr-5 pr-4 py-2 z-50`}>
       {/* Arrow  */}
@@ -44,8 +48,8 @@ const Navbar = ({ className }) => {
         <button onClick={signUp} className="w-fit text-neutral-400 text-sm font-semibold hover:scale-105 ease-in-out duration-100">
           Sign up
         </button>
-        <button className="w-fit px-8 h-12 rounded-full bg-neutral-50 text-base text-neutral-900 font-semibold flex items-center justify-center hover:scale-105 ease-in-out duration-100">
-          <a href='https://atulkumar9451-spotify-clone.vercel.app/login'>Log in</a>
+        <button onclick={login}className="w-fit px-8 h-12 rounded-full bg-neutral-50 text-base text-neutral-900 font-semibold flex items-center justify-center hover:scale-105 ease-in-out duration-100">
+          Log in
         </button>
       </div>
     </nav>
