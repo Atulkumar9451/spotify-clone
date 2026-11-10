@@ -48,7 +48,7 @@ const Navbar = ({ className }) => {
         <button onClick={signUp} className="w-fit text-neutral-400 text-sm font-semibold hover:scale-105 ease-in-out duration-100">
           Sign up
         </button>
-        <button onclick={login}className="w-fit px-8 h-12 rounded-full bg-neutral-50 text-base text-neutral-900 font-semibold flex items-center justify-center hover:scale-105 ease-in-out duration-100">
+        <button onClick={login} className="w-fit px-8 h-12 rounded-full bg-neutral-50 text-base text-neutral-900 font-semibold flex items-center justify-center hover:scale-105 ease-in-out duration-100">
           Log in
         </button>
       </div>
