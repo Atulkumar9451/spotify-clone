@@ -102,7 +102,7 @@ const Footer = () => {
         </div>
       </div>
       <div className="w-full h-1px bg-neutral-700/40"></div>
-      <p className="text-sm text-neutral-400 font-normal">&copy; 2024 Spotify AB</p>
+      <p className="text-sm text-neutral-400 font-normal">&copy; 2026 Spotify AB</p>
     </div>
   )
 }
